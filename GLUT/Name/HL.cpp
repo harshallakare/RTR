@@ -68,7 +68,7 @@ void display(void)
 
 	glColor3f(1.0f, 0.0f, 1.0f); // Set color to white
 
-	// Draw the letter "S"
+	// Draw the letter "H"
 	//glVertex2f(-0.2f, 0.5f);
 	//glVertex2f(-0.8f, 0.5f);
 	//glVertex2f(-0.8f, -0.1f);
@@ -82,7 +82,7 @@ void display(void)
 
 	glColor3f(1.0f, 0.0f, 1.0f); // Set color to white
 
-	// Draw the letter "S"
+	// Draw the letter "L"
 	glVertex2f(-0.0f, 0.5f);
 	glVertex2f(-0.0f, -0.7f);
 	glVertex2f(-0.0f, -0.1f);
