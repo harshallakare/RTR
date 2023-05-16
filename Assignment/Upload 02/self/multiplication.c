@@ -10,13 +10,13 @@ int main(void)
 	int mul;
 
 	//code
-	printf("Please enter First Number :");
+	printf("Please enter First Number :\n");
 	scanf("%d", &a);
 
-	printf("Please enter Second Number : ");
+	printf("Please enter Second Number : \n");
 	scanf("%d", &b);
 
 	mul = a * b;
-	printf("Sum of %d and %d Number is %d ", a, b , mul);
+	printf("Sum of %d and %d Number is %d \n", a, b , mul);
 	return(0);
 }
