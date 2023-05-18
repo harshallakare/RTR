@@ -3,21 +3,21 @@
 int main(void)
 {
 	//varibale declarations 
-	int a = 5; 
-	int b = 10; 
+	int hbl_a = 5; 
+	int hbl_b = 10;
 
 	printf("Harshal Lakare");
 	//code 
 	printf("\n\n");
-	printf("A = %d\n",a);
-	printf("A = %d\n", a++);
-	printf("A = %d\n", a);
-	printf("A = %d\n\n", ++a);
+	printf("hbl_A = %d\n", hbl_a);
+	printf("hbl_A = %d\n", hbl_a++);
+	printf("hbl_A = %d\n", hbl_a);
+	printf("hbl_A = %d\n\n", ++hbl_a);
 
-	printf("B = %d\n", b);
-	printf("B = %d\n", b--);
-	printf("B = %d\n", b);
-	printf("B = %d\n\n", --b);
+	printf("hbl_B = %d\n", hbl_b);
+	printf("hbl_B = %d\n", hbl_b--);
+	printf("hbl_B = %d\n", hbl_b);
+	printf("hbl_B = %d\n\n", --hbl_b);
 	
 	return(0);
 	}
