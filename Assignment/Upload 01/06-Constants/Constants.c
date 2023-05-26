@@ -20,3 +20,45 @@ enum
 	FRIDAY,
 	SATURDAY
 };
+
+enum
+{
+	JANUARY = 1,
+	FEBRUARY,
+	MARCH,
+	APRIL,
+	MAY,
+	JUNE,
+	JULY,
+	AUGUST,
+	SEPTEMBER,
+	OCTOBER,
+	NOVEMBER,
+	DECEMBER
+};
+
+//nAMED ENUMS
+enum Numbers
+{
+	ONE,
+	TWO,
+	THREE,
+	FOUR,
+	FIVE = 5,
+	SIX,
+	SEVEN,
+	EIGHT,
+	NINE,
+	TEN
+}
+
+enum boolean
+{
+	TRUE = 1;
+	FALSE = 0;
+};
+
+int main(void)
+{
+
+}
