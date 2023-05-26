@@ -35,7 +35,7 @@ int main(void)
 // ****** You May come back to this code and will understand it much better after you have covered : Arrays, Loop and functions ******
 // ****** The only Objective of writing this function was to obtain the binary representaion of decimal integer so that BIT-WISE AND_ing, OR-ing, COMPLEMENT AND BIT-SHIFTING could be understood with great ease ******
 
-
+/*
 void PrintBinaryFormOfNumber(unsigned int hbl_decimal_number)
 {
 	//varibale declarations 
@@ -59,3 +59,4 @@ void PrintBinaryFormOfNumber(unsigned int hbl_decimal_number)
 	}
 
 }
+*/
