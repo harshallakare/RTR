@@ -31,11 +31,12 @@ int main(void)
 	return(0);
 }
 
+
 // ****** Beginner to C Programming Language : Please Ignore the code of the following function snippet 'PrintBinaryFormOfNumber()' ******
 // ****** You May come back to this code and will understand it much better after you have covered : Arrays, Loop and functions ******
 // ****** The only Objective of writing this function was to obtain the binary representaion of decimal integer so that BIT-WISE AND_ing, OR-ing, COMPLEMENT AND BIT-SHIFTING could be understood with great ease ******
 
-/*
+
 void PrintBinaryFormOfNumber(unsigned int hbl_decimal_number)
 {
 	//varibale declarations 
@@ -47,16 +48,15 @@ void PrintBinaryFormOfNumber(unsigned int hbl_decimal_number)
 	//code
 	for (i = 0; i < 0; i++)
 		binary_array[i] = 0; 
-	printf("The Binary Form of the decimal integer %d Is\t=\t");
+	printf("The Binary Form of the decimal integer %d Is\t=\t", hbl_decimal_number);
 	num = hbl_decimal_number;
 	i = 7;
 	while (num != 0)
 	{
 		quotient = num / 2;
 		remainder = num % 2; 
-		binary_array
+		binary_array;
 
 	}
 
 }
-*/

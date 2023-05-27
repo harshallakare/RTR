@@ -3,7 +3,7 @@
 int main(void)
 {
 	//function prototypes 
-	void PrintBinaryFormOfNumber(unsiged int);
+	void PrintBinaryFormOfNumber(unsigned int);
 
 	//variable declarations 
 	unsigned int hba_a;

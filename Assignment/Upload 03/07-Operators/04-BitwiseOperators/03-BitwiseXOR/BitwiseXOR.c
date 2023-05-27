@@ -36,8 +36,8 @@ int main(void)
 // The Only Objective of writing this fuctions was to obtain the binary representaion of decimal interger so that BIT-WISE AND_ing, OR-ing, COMPLEMENT AND BIT-SHITING could be understood with great ease ******
 
 
-/*
-void PrintBinaryOfNumber(unsigned int decimal_number)
+ 
+void PrintBinaryFormOfNumber(unsigned int decimal_number)
 {
 	//varible declaration 
 	unsigned int quotient, remainder; 
@@ -54,13 +54,13 @@ void PrintBinaryOfNumber(unsigned int decimal_number)
 	while (num != 0)
 	{
 		quotient = num / 2;
-		remainder = number % 2;
+		remainder = num % 2;
 		binary_array[i] = remainder; 
 		num = quotient;
 		i--;
 	}
-	for i(i = 0; i < 8; i++)
+	for (i = 0; i < 8; i++)
 		printf("%u", binary_array[i]);
-	printf("\n\n")
+	printf("\n\n");
 }
-*/
+ 

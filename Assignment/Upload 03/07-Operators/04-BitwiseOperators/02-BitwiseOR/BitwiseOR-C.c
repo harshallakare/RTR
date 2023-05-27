@@ -18,7 +18,7 @@ int main(void)
 
 	printf("\n\n");
 	printf("Enter Another Integer");
-	scanf("%u", hbl_b);
+	scanf("%u", &hbl_b);
 
 	printf("\n\n\n\n");
 	hbl_result = hbl_a | hbl_b;
@@ -33,7 +33,7 @@ int main(void)
 // ****** You may come back to this code and will understand IT much better after you have covered : Arrays , loops and functions ******
 // ****** The only Objective of writing this fuction was to obtain the binary repesentation of decimal integers so that BIT-WISE AND-ing, OR-ing , COMPLEMENT AND BIT-SHITFTING Could be Understood with great EASE ******
 
-/*
+ 
 void PrintBinaryFormOfNumber(unsigned int decimal_number)
 {
 	//varibale declerations 
@@ -47,7 +47,7 @@ void PrintBinaryFormOfNumber(unsigned int decimal_number)
 		binary_array[i] = 0; 
 
 	printf("The Binary Form Of the Decimal Interger % d IS \t=\t", decimal_number);
-	num = decimal_number l
+	num = decimal_number;
 	i = 7; 
 	while (num != 0)
 	{
@@ -64,4 +64,4 @@ void PrintBinaryFormOfNumber(unsigned int decimal_number)
 	printf("\n\n");
 		
 }
-*/
+ 

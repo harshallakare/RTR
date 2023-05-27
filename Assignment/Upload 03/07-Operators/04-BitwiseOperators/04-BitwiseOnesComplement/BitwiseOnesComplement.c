@@ -3,7 +3,7 @@
 int main(void)
 {
 	//function prototypes 
-	void PrintBinaryFormOfNUmber(unsigned int);
+	void PrintBinaryFormOfNumber(unsigned int);
 
 	//variable declarations 
 	unsigned int hbl_a; 
@@ -28,7 +28,7 @@ int main(void)
 // ****** YOu maye come back to this code and will understand It much better after you have covered : ARRAYS, LOOPS AND FUNCTIONS ******
 // ****** The only objective of writing this function was to obtain the binary represeantion of the Decimal interger so that BIT-WISE AND-ing,OR-ing, Complement AND BIT-Shifiting Could be understood with great ease ******
 
-/*
+ 
 void PrintBinaryFormOfNumber(unsigned int decimal_number)
 {
 	//variable declaration 
@@ -54,6 +54,6 @@ void PrintBinaryFormOfNumber(unsigned int decimal_number)
 	for (i = 0; i < 8; i++)
 		printf("%u", binary_array[i]);
 
-	printf(\n\n);
+	printf("\n\n");
 }
-*/
+ 

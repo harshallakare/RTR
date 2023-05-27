@@ -25,16 +25,17 @@ int main(void)
 	printf("Bitwise RIGHT-SHITing A = %d by %d Bits \nGives The resul = %d (Decimal). \n\n", hba_a,hba_num_bits,hba_num_bits);
 	PrintBinaryFormOfNumber(hba_a);
 	PrintBinaryFormOfNumber(hba_result);
-	
-	
+		
 	return(0);
 }
+
+
 
 // ****** Begainner to C Programming language : Please ignore the code of the follwoing function snippet 'PrintBinaryFormOfNumber()' ******
 // ****** YOu maye come back to this code and will understand It much better after you have covered : ARRAYS, LOOPS AND FUNCTIONS ******
 // ****** The only objective of writing this function was to obtain the binary represeantion of the Decimal interger so that BIT-WISE AND-ing,OR-ing, Complement AND BIT-Shifiting Could be understood with great ease ******
 
-/*
+ 
 void PrintBinaryFormOfNumber(unsigned int decimal_number)
 {
 	//varibale decleration 
@@ -59,6 +60,6 @@ void PrintBinaryFormOfNumber(unsigned int decimal_number)
 	}
 	for (i = 0; i < 8; i++)
 		printf("%u", binary_array[i]);
-	printf("\n\n")
+	printf("\n\n");
 }
-*/
+ 
