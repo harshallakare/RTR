@@ -10,7 +10,7 @@ int main(void)
 	float hbl_f, hbl_result_float;
 
 	int hbl_i_explicit;
-	fload hbl_f_explicit;
+	float hbl_f_explicit;
 
 	//code
 	printf("Harshal Lakare\n\n");
@@ -18,7 +18,7 @@ int main(void)
 
 	//Interconversion and Implicit TYPE-CASTING between 'char' and 'int' types....
 	hbl_i = 70; 
-	hbl_ch_01 = i; 
+	hbl_ch_01 = hbl_i; 
 	printf("I = %d\n", hbl_i);
 	printf("Character 1 (after hbl_ch_01 = i) = %c\n\n",hbl_ch_01);
 
@@ -38,9 +38,9 @@ int main(void)
 
 	//EXplicit type-casting using cast operator....
 	hbl_f_explicit = 30.121995f; 
-	hbl_f_explicit = (int)hbl_f_explicit; 
+	hbl_i_explicit = (int)hbl_f_explicit; 
 	printf("Floating Point Number Which Will be type Casted Explicity = %f\n", hbl_f_explicit);
-	printf("Resultant integer After Explicit Type Casting Of %f = %d\n\n", hbl_f_explicit, hbl_i_explicit);
+	printf("Resultant Intergfer after Explicit type Casting Of %f = %d\n\n", hbl_f_explicit, hbl_i_explicit);
 
 	return(0);
 }
