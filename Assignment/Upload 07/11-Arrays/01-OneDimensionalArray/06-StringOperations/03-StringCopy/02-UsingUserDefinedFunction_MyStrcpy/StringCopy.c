@@ -44,7 +44,7 @@ void MyStrcpy(char str_destination[], char str_source[])
 
 	//code 
 	iStringLenght = MyStrlen(str_source); 
-	for (j = 0; j < iStringLenght; i++)
+	for (j = 0; j < iStringLenght; j++)
 		str_destination[j] = str_source[j]; 
 
 	str_destination[j] = '\0'; 

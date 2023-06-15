@@ -2,7 +2,7 @@
 int main(void)
 {
 	//variable declarations 
-	int iArray[] = {9,30,,6,12,98,95,20,2,32,45,};
+	int iArray[] = {9,30,6,12,98,95,20,2,32,45,};
 	int int_size;
 	int iArray_size; 
 	int iArray_num_element; 
@@ -26,7 +26,7 @@ int main(void)
 
 	for (i = 0; i < iArray_num_element; i++)
 	{
-		printf("iArray[%d] (Element %d) = %d\n", i,(i +1), iArray[]);
+		printf("iArray[%d] (Element %d) = %d\n", i,(i +1), iArray[i]);
 	}
 	printf("\n\n");
 	printf("Size of Data type 'int'			= %d bytes \n", int_size);

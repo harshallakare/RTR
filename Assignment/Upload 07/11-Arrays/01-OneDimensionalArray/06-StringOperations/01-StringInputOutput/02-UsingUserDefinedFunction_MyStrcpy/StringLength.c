@@ -31,7 +31,7 @@ int main(void)
 	return(0);
 }
 
-int myStrlen(char str[])
+int MyStrlen(char str[])
 {
 	//variable declarations 
 	int j; 
@@ -42,9 +42,9 @@ int myStrlen(char str[])
 	for (j = 0; j < MAX_STRING_LENGTH; j++)
 	{
 		if (str[j] == '\0')
-			break; 
-		else 
-			string_lenght++ 
+			break;
+		else
+			string_lenght++;
 	}
 	return(string_lenght);
 }

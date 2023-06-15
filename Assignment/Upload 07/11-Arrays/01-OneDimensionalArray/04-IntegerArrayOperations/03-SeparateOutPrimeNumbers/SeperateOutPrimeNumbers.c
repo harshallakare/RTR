@@ -5,6 +5,7 @@
 int main(void)
 {
 	//variable declaration 
+	//int NUM_ELEMENTS; 
 	int iArray[NUM_ELEMENTS];
 	int i, num, count = 0; 
 

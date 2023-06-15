@@ -5,7 +5,8 @@
 int main(void)
 {
 	//varaible declarations 
-	int iArray[NUM_ELEMENTS]; 
+	//int iArray[NUM_ELEMENTS];
+	int iArray[NUM_ELEMENTS];
 	int i, num, sum = 0; 
 
 	//code 

@@ -13,7 +13,7 @@ int main(void)
 	printf("Harshal Lakare \n\n");
 	printf("\n\n");
 	printf("Enter A string \n\n");
-	gets_S(chArray_Original, MAX_STRING_LENGTH);
+	gets_s(chArray_Original, MAX_STRING_LENGTH);
 
 	// *** String Copy***
 	strcpy(chArry_Copy, chArray_Original);

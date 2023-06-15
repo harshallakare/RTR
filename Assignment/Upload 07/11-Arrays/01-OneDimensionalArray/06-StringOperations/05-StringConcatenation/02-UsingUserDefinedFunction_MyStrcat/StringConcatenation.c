@@ -46,7 +46,8 @@ int main(void)
 
 	return(0);
 }
-void MyStrcat(char str_destination[]. char str_source[])
+
+void MyStrcat(char str_destination[] char str_source[])
 {
 	//function prototype 
 	int MyStrlen(char[]);

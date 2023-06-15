@@ -10,6 +10,7 @@ int main(void)
 	//code 
 	printf("\n\n");
 	printf("Harshal Lakare \n\n");
+	printf("Enter A string : \n\n");
 	gets_s(chARRAY,MAX_STRING_LENGTH);
 
 	printf("\n\n");

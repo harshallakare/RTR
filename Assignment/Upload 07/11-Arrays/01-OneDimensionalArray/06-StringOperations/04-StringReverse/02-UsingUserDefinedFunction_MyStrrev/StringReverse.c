@@ -1,4 +1,4 @@
-#include<tdio.h>
+#include<stdio.h>
 
 #define MAX_STRING_LENGHT 512
 
@@ -32,7 +32,7 @@ int main(void)
 	return(0);
 }
 
-void MySrrev(char str_destination[], char str_source[])
+void MyStrrev(char str_destination[], char str_source[])
 {
 	//function prototype
 	int MyStrlen(char[]);
@@ -49,7 +49,7 @@ void MySrrev(char str_destination[], char str_source[])
 
 	//We Need to put the character which is at last index of 'str_source' to the first index of 'strdestination'
 	//And Second-last character of 'str_source' to the second character of 'str_destiantion' and so on...
-	for (i = 0; j = len; i < iStringLengh, j >= 0; i++, j--)
+	for (i = 0, j = len; i < iStringLengh, j >= 0; i++, j--)
 	{
 		str_destination[i] = str_source[j]; 
 
