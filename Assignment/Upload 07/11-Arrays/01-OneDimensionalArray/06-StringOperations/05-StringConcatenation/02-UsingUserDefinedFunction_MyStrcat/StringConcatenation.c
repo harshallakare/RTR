@@ -47,7 +47,7 @@ int main(void)
 	return(0);
 }
 
-void MyStrcat(char str_destination[] char str_source[])
+void MyStrcat(char str_destination[], char str_source[])
 {
 	//function prototype 
 	int MyStrlen(char[]);
@@ -64,7 +64,7 @@ void MyStrcat(char str_destination[] char str_source[])
 	//SO, Concatenation must begin from index number equal to length of the array 'str_destination'
 	//We Need to put the character which is at first index of 'str_source' to the (Last index + 1 ) of 'str_destination'
 
-	for (i = iStringLength_Destination, j = 0; j < iStringLength_Source; i++; j++)
+	for (i = iStringLength_Destination, j = 0; j < iStringLength_Source; i++, j++)
 	{
 		str_destination[i] = str_source[j]; 
 	}

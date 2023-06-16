@@ -1,4 +1,4 @@
-#inlcude<stdio.h> // 'stdio.h' contains declarations of 'prints()'
+#include<stdio.h> // 'stdio.h' contains declarations of 'prints()'
 #include<stdlib.h> // 'stdlib.h' contains declaration of 'exit()'
 
 int main(int argc, char* argv[], char* envp[])

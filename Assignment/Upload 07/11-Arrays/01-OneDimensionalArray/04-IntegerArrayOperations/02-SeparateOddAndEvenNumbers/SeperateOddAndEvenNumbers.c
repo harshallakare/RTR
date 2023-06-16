@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-#define NUM_ELEMENTS 10 ; 
+#define NUM_ELEMENTS 10 
 
 int main(void)
 {
@@ -14,7 +14,7 @@ int main(void)
 
 	// *** Array Elements Input ***
 	printf("Enter Integer Elements For array : \n\n");
-	for (i - 0; i < NUM_ELEMENTS; i++)
+	for (i = 0; i < NUM_ELEMENTS; i++)
 	{
 		scanf("%d", &num);
 		iArray[i] = num; 

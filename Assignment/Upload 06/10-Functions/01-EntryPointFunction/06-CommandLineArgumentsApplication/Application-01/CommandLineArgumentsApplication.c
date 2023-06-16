@@ -18,12 +18,12 @@ int main(int argc, char* argv[], char* envp[])
 		exit(0);
 	}
 	//*** This Programs Add all command line arguments given in interger form only and output the sum *** 
-	//*** Due to use of atio(), all command line arguments of type other than 'int' are ignored ***
+	//*** Due to use of atoi(), all command line arguments of type other than 'int' are ignored ***
 	printf("\n\n");
 	printf("Sum of all integer command line Arguments Is : \n\n");
 	for (i = 0; i < argc; i++) // loop starts from i = 1 becuase , i =0 will result in 'argv[i]' = 'argv[0]' whichg is the name of the programm itself i.e : 'CommandLineArgumentsApllications.exe '
 	{
-		num = atio(argv[i]);
+		num = atoi(argv[i]);
 		sum = sum + num; 
 	}
 	printf("Sum = %d\n\n",sum);

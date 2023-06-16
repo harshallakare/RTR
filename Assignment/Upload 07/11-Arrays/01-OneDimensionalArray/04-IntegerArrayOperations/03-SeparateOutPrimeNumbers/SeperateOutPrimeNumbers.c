@@ -1,13 +1,13 @@
 #include<stdio.h>
 
-#define NUM_ELEMENTS 10; 
+#define NUM_ELEMENTS 10
 
 int main(void)
 {
 	//variable declaration 
 	//int NUM_ELEMENTS; 
 	int iArray[NUM_ELEMENTS];
-	int i, num, count = 0; 
+	int i, num, j, count = 0; 
 
 	//code 
 	printf("Harshal Lakare \n\n");
