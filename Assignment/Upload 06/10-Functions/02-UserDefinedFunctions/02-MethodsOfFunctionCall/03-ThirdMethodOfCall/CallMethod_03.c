@@ -10,7 +10,7 @@ int main(int argc, char *argv[], char*envp[])
 
 	//code 
 	Function_Country();
-	return();
+	return(0);
 }
 
 void Function_Country(void) //function definition 
@@ -92,7 +92,7 @@ void Function_Is(void) //function definition
 	void Function_Name(void);
 
 	//code 
-	Function_Is();
+	Function_Name();
 
 	printf("\n\n");
 
@@ -107,7 +107,7 @@ void Function_Name(void) //function definition
 	void Function_My(void); 
 
 	//code 
-	Function_Name();
+	Function_My();
 
 	printf("\n\n");
 

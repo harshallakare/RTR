@@ -16,7 +16,7 @@ int main(int argc, char* argv[], char* envp[])
 //****** User defined Fuction : MEthod Of Definiation 1 ******
 //****** No Return Value , No Parameters ******
 
-void Myaddition(void) //function definition 
+void MyAddition(void) //function definition 
 {
 	//varibale declarations : lcoal variable to MyAddition()
 	int a, b, sum;

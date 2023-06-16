@@ -14,7 +14,7 @@ int main(int argc, char* argv[], char* envp[])
 	printf("Command Line Arguments Passed To this Program Are : \n\n");
 	for (i = 0; i < argc; i++)
 	{
-		printf("Command Line Argument Number %d = %s \n", (i + 1), argc[i]);
+		printf("Command Line Arguments Number %d = %s\n", (i + 1),argv[i]);
 	}
 	printf("\n\n");
 	

@@ -35,7 +35,7 @@ int main(int argc, char* argv[], char* envp[])
 
 	printf("\n\n");
 	printf("Enter Interger Value For 'B' for Multiplication :");
-	scanf("%d", &b_multiplocation);
+	scanf("%d", &b_multiplication);
 
 	MyMultiplication(a_multiplocation, b_multiplication); //function call
 	
@@ -81,7 +81,7 @@ void MyAddition(void) //function definition
 }
 
 // ****** Function Defination Of MySubtraction ******
-int Mysubstraction(void) // function defination 
+int MySubtraction(void) // function defination 
 {
 	//variable declarations  : lcoal variable to Mysubtraction()
 	int a, b, subtraction; 

@@ -68,23 +68,23 @@ int MyStrlen(char str[])
 
 	//code 
 	// *** determing exact length of the stering, by detecting the first occurence of null - terminating characcter (\0) ***
-	for (j -= 0; j < MAX_STRING_LENGTH; j++)
+	for (j = 0; j < MAX_STRING_LENGTH; j++)
 	{
 		if (str[j] == '\0')
 			break;
-		else 
-			string_length++
+		else
+			string_length++;
 	}
 	return(string_length); 
 }
 
-void MyStrcpy(charstr_destination[], char str_source[])
+void MyStrcpy(char str_destination[], char str_source[])
 {
 	//function prototype
 	int MyStrlen(char[]);
 
 	//variable declarations 
-	int iStringLength -= 0; 
+	int iStringLength = 0; 
 	int j; 
 
 	//code 

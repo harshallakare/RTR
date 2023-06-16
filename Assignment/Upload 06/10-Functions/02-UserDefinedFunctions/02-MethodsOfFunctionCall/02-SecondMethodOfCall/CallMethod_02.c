@@ -17,7 +17,7 @@ int main(int argc, char* argv[], char* envp[])
 }
 
 //****** User-Defined Function's Definitions... ******
-void display_information(); //function definition 
+void display_information(void) //function definition 
 {
 	//function prototypes 
 	void Function_My(void); 
@@ -38,7 +38,6 @@ void display_information(); //function definition
 	Function_MiddleName();
 	Function_Surname();
 	Function_OfAMC();
-
 }
 
 void Function_My(void) //function defination 
@@ -57,7 +56,7 @@ void Function_Name(void) //function definition
 	printf("Name");
 }
 
-void  Function_Is(void); //function definition
+void  Function_Is(void) //function definition
 {
 	//code 
 	printf("\n\n");
@@ -65,7 +64,7 @@ void  Function_Is(void); //function definition
 	printf("Is");
 }
 
-void Function_FirstName(void); //function definition
+void Function_FirstName(void) //function definition
 {
 	//code 
 	printf("\n\n");
@@ -73,7 +72,7 @@ void Function_FirstName(void); //function definition
 	printf("Harshal");
 }
 
-void Function_MiddleName(void); //function definition
+void Function_MiddleName(void) //function definition
 {
 	//code 
 	printf("\n\n");
@@ -81,7 +80,7 @@ void Function_MiddleName(void); //function definition
 	printf("Baliram");
 }
 
-void Function_Surname(void); //function definition
+void Function_Surname(void) //function definition
 {
 	//code 
 	printf("\n\n");
@@ -89,7 +88,7 @@ void Function_Surname(void); //function definition
 	printf("Lakare");
 }
 
-void Function_OfAMC(void); //function definition
+void Function_OfAMC(void) //function definition
 {
 	//code 
 	printf("\n\n");
@@ -97,7 +96,7 @@ void Function_OfAMC(void); //function definition
 	printf("Of AstroMediComp");
 }
 
-void Function_Country(void); //function definition
+void Function_Country(void) //function definition
 {
 	//code 
 	printf("\n\n");

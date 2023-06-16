@@ -1,4 +1,5 @@
 #include<stdio.h>
+
 #define MAX_NUMBER(a,b) ((a > b) ? a : b)
 
 int main(int argc, char* argv[], char* envp[])
@@ -10,7 +11,7 @@ int main(int argc, char* argv[], char* envp[])
 
 	float fNum_01;
 	float fNum_02; 
-	flaot fResult; 
+	float fResult; 
 
 	//code 
 	// ****** Comparing inter values ******

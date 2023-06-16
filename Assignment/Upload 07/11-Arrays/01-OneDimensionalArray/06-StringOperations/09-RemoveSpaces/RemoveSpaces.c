@@ -59,9 +59,9 @@ int MyStrlen(char str[])
 	for (j = 0; j < MAX_STRING_LENGTH; j++)
 	{
 		if (str[j] == '\0')
-			break; 
-		else 
-			string_length++
+			break;
+		else
+			string_length++;
 	}
 	return(string_length);
 }

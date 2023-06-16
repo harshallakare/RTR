@@ -26,7 +26,7 @@ int main(int argc, char* argv[], char* envp[])
 }
 
 //****** Function Definition Of MyAddition()******
-int Myaddition(int a, int b) //function definition
+int MyAddition(int a, int b) //function definition
 {
 	//variable declaration 
 	int sum; 

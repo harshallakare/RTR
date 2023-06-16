@@ -80,7 +80,7 @@ int MyStrlen(char str[])
 		if (str[j] == '\0')
 			break;
 		else
-			string_length++;
+			string_lenght++;
 	}
 	return(string_lenght);
 

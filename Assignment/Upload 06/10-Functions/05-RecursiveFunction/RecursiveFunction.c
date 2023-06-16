@@ -7,7 +7,7 @@
 
 #include<stdio.h>
 
-itn main(int argc, char* argv[], char* envp[])
+int main(int argc, char* argv[], char* envp[])
 {
 	//variable declarations 
 	unsigned int num; 

@@ -60,7 +60,7 @@ int MyStrlen(char str[])
 	// *** Determing exact length of the string, by detecting the first occurence of null terminating character (\0) ***
 	for (j = 0; j < MAX_STRING_LENGTH; j++)
 	{
-		if (str[i] == '\0')
+		if (str[j] == '\0')
 			break;
 		else
 			string_length++;

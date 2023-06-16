@@ -23,7 +23,9 @@ int main(void)
 	//code 
 
 	//*** String Input***
+	printf("\n\n");
 	printf("Harshal Lakare \n\n");
+	printf("Enter A String\n\n");
 	printf("\n\n");
 	gets_s(chArray, MAX_STRING_LENGTH);
 
@@ -73,7 +75,7 @@ int main(void)
 
 }
 
-int Mystrlen(char str[])
+int MyStrlen(char str[])
 {
 	//variable declarations 
 	int j; 
@@ -103,7 +105,7 @@ char  MyToUpper(char ch)
 	//If This dirrence is subtraced from the ASCII value of a lower case letter , the reultant ASCII value will be that of its upper case counterpart , hence Helping us to find its upper case letter !!! 
 	//ASCII Value of 'a' to 'z' ==> 97 to 122
 	//ASCII value of 'A' to 'Z' ==> 65 to 90 
-
+	num = 'a' - 'A'; 
 	if ((int)ch >= 97 && (int)ch <= 122)
 	{
 		c = (int)ch - num;
