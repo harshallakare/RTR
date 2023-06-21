@@ -13,6 +13,7 @@ int main(void)
 	{
 		a[i] = num * (i + 1);
 		printf("%d\n", a[i]);
+		
 	}
 	return(0);
 }
