@@ -2,7 +2,7 @@
 int main(void)
 {
 	//variable declarations 
-	int hbl_iArray[5][3] = { {1,2,3}, {2,4,6} {3,6,9}, {4,8,12},{5,10,15} }; // In-Line  initialization 
+	int hbl_iArray[5][3] = { {1,2,3}, {2,4,6}, {3,6,9}, {4,8,12}, {5,10,15} }; // In-Line  initialization 
 	int hbl_int_size;
 	int hbl_iArray_size;
 	int hbl_iArray_num_elements, hbl_iArray_num_rows, hbl_iArray_num_columns;
@@ -14,8 +14,9 @@ int main(void)
 
 	hbl_int_size = sizeof(int);
 
-	hbl_iArray = sizeof(hbl_iArray);	
-	printf("Size of two dimensional (2D)Interget Array is = %d\n\n", hbl_iArray);
+	//hbl_iArray = sizeof(hbl_iArray);	
+	hbl_iArray_size = sizeof(hbl_iArray);
+	printf("Size of two dimensional (2D)Interget Array is = %d\n\n", hbl_iArray_size);
 
 	hbl_iArray_num_rows = hbl_iArray_size / sizeof(hbl_iArray[0]);
 	printf("Number of rows in two Dimensinal (2D) Interger Array Is = %d\n\n", hbl_iArray_num_rows);

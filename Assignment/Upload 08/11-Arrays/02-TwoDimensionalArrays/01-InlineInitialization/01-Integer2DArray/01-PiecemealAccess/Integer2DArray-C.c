@@ -2,7 +2,7 @@
 int main(void)
 {
 //variable declarations 
-	int hbl_iArray[5][3] = { {1,2,3}, {2,4,6} {3,6,9}, {4,8,12},{5,10,15} }; // In-Line  initialization 
+	int hbl_iArray[5][3] = { {1,2,3}, {2,4,6}, {3,6,9}, {4,8,12},{5,10,15} }; // In-Line  initialization 
 	int hbl_int_size;
 	int hbl_iArray_size;
 	int hbl_iArray_num_elements, hbl_iArray_num_rows, hbl_iArray_num_columns;
