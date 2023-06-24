@@ -7,7 +7,7 @@ int main(void)
 	//code 
 	printf("Harshal Lakare \n\n");
 	printf("\n\n");
-	scanf("%d", hbl_age);
+	scanf("%d", &hbl_age);
 	if (hbl_age >= 18)
 	{
 		printf("You are eligible for voting !!!\n\n");

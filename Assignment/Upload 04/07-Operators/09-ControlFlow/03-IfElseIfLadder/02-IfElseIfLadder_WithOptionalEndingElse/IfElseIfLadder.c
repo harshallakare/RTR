@@ -18,16 +18,16 @@ int main(void)
 	else if ((hbl_num > 0) && (hbl_num <= 100))
 		printf("Num = %d Is Between 0 and 100 !!!\n\n", hbl_num);
 
-	else if ((num > 100) && (num <= 200))
+	else if ((hbl_num > 100) && (hbl_num <= 200))
 		printf("NUm = %d Is Between 100 and 200 !!!\n\n", hbl_num);
 
-	else if ((num > 200) && (num <= 300))
+	else if ((hbl_num > 200) && (hbl_num <= 300))
 		printf("Num = %d Is Between 200 and 300 !!!\n\n", hbl_num);
 
-	else if ((num > 300) && (num <= 400))
+	else if ((hbl_num > 300) && (hbl_num <= 400))
 		printf("Num = %d Is Between 300 and 400 !!!\n\n", hbl_num);
 
-	else if ((num > 400) && (num <= 500))
+	else if ((hbl_num > 400) && (hbl_num <= 500))
 		printf("Num = %d Is Between 400 and 500 !!!\n\n", hbl_num);
 
 	else if (hbl_num > 500)

@@ -9,7 +9,7 @@ int main(void)
 	printf("\n\n");
 	printf("Enter Age : ");
 	scanf("%d", &hbl_age);
-	if (age >= 18)
+	if (hbl_age >= 18)
 	{
 		printf("You Are Eligible For Voting !!!\n\n");
 	}

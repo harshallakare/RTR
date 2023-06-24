@@ -17,7 +17,7 @@ int main(void)
 {
 	//variable declarations 
 	char ch;
-	int ch_value; 
+	int ch_value = 0; 
 
 	//code 
 	printf("Harshal Lakare \n\n");

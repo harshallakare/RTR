@@ -43,7 +43,7 @@ int main(void)
 
 	if (hbl_num > 500)
 	{
-		printf("Num = %d Is Greater than 500. \n\n");
+		printf("Num = %d Is Greater than 500. \n\n", hbl_num);
 	}
 
 	return(0);
