@@ -65,9 +65,10 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpszCmdLi
 }
 
 
-LRESULT CALLBACK WndProc(HWND hwnd, UINT iMsg, WPARAM wParam, LPARAM lParam)
+//Callback Function
+LRESULT CALLBACK WndProc(HWND hwnd, UINT iMsg, WPARAM wParam , LPARAM lParam)
 {
-	// code
+	// Code	
 	switch (iMsg)
 	{
 	case WM_DESTROY:
@@ -78,3 +79,5 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT iMsg, WPARAM wParam, LPARAM lParam)
 	}
 	return(DefWindowProc(hwnd, iMsg, wParam, lParam));
 }
+
+ 
