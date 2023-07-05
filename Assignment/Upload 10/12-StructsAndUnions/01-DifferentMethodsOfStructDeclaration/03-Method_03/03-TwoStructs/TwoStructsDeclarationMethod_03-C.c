@@ -22,14 +22,14 @@ int main(void)
 	//user Input for the data memeber of 'struct MyPoint' varibale 'point_A'
 	printf("Harshal Lakare \n\n");
 	printf("\n\n");
-	printf("Enter X-Coordinate for A point : ");
+	printf("Enter hbl_X-Coordinate for hbl_A point : ");
 	scanf("%d", &hbl_point.hbl_x);
-	printf("Enter Y-COrdinate For A Point : ");
+	printf("Enter hbl_Y-COrdinate For hbl_A Point : ");
 	scanf("%d", &hbl_point.hbl_y);
 	
 	
 	printf("\n\n");
-	printf("Point Co-ordinates (x,y) are (%d, %d) !!!\n\n", hbl_point.hbl_x,hbl_point.hbl_y);
+	printf("Point Co-ordinates (hbl_x,hbl_y) are (%d, %d) !!!\n\n", hbl_point.hbl_x,hbl_point.hbl_y);
 
 	if (hbl_point.hbl_x == 0 && hbl_point.hbl_y == 0)
 		printf("The Point Is the Origin (%d, %d) !!!\n", hbl_point.hbl_x , hbl_point.hbl_y);
