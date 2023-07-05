@@ -33,11 +33,11 @@ int main(void)
 	//Displaying Vlaues of the data members of 'struct MyPoint' (all varibales) 
 	printf("Harshal Lakare\n\n");
 	printf("\n\n");
-	printf("Co-ordinates (x,y) of Point 'A' are : (%d, %d) \n\n",point_A.hbl_x,point_A.hbl_y);
-	printf("Co-ordinates (x,y) of Point 'B' are : (%d, %d) \n\n", point_B.hbl_x, point_B.hbl_y);
-	printf("Co-ordinates (x,y) of Point 'C' are : (%d, %d) \n\n", point_C.hbl_x, point_C.hbl_y);
-	printf("Co-ordinates (x,y) of Point 'D' are : (%d, %d) \n\n", point_D.hbl_x, point_D.hbl_y);
-	printf("Co-ordinates (x,y) of Point 'E' are : (%d, %d) \n\n", point_E.hbl_x, point_E.hbl_y);
+	printf("Co-ordinates (hbl_x,hbl_y) of Point 'hbl_A' are : (%d, %d) \n\n",point_A.hbl_x,point_A.hbl_y);
+	printf("Co-ordinates (hbl_x,hbl_y) of Point 'hbl_B' are : (%d, %d) \n\n", point_B.hbl_x, point_B.hbl_y);
+	printf("Co-ordinates (hbl_x,hbl_y) of Point 'hbl_C' are : (%d, %d) \n\n", point_C.hbl_x, point_C.hbl_y);
+	printf("Co-ordinates (hbl_x,hbl_y) of Point 'hbl_D' are : (%d, %d) \n\n", point_D.hbl_x, point_D.hbl_y);
+	printf("Co-ordinates (hbl_x,hbl_y) of Point 'hbl_E' are : (%d, %d) \n\n", point_E.hbl_x, point_E.hbl_y);
 
 	return(0);
 
