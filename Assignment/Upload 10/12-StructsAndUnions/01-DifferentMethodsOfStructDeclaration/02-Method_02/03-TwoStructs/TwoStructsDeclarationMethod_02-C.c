@@ -23,13 +23,13 @@ int main(void)
 	//code 
 	//User Input for the Data Members of 'struct MyPoint' varaible 'point_A'
 	printf("\n\n");
-	printf("Enter X-cordinates For A point : ");
+	printf("Enter hbl_X-cordinates For hbl_A point : ");
 	scanf("%d", &point.hbl_x);
-	printf("Enter Y-Coordinate For A point : ");
+	printf("Enter hbl_Y-Coordinate For hbl_A point : ");
 	scanf("%d", &point.hbl_y);
 
 	printf("\n\n");
-	printf("Point Co-ordinates (x,y) Are : (%d, %d) !!!\n\n", point.hbl_x,point.hbl_y);
+	printf("Point Co-ordinates (hbl_x,hbl_y) Are : (%d, %d) !!!\n\n", point.hbl_x,point.hbl_y);
 
 	if (point.hbl_x == 0 && point.hbl_y == 0)
 		printf("The Point is the origin (%d, %d) !!!\n", point.hbl_x, point.hbl_y);
@@ -38,9 +38,9 @@ int main(void)
 		if (point.hbl_x == 0) //If 'X' IS zero ....obviously 'Y' Is the non-zero value 
 		{
 			if (point.hbl_y < 0) // If 'Y' Is -ve 
-				strcpy(point_properties.hbl_axis_lcoation, "Negattive Y");
+				strcpy(point_properties.hbl_axis_lcoation, "Negattive hbl_Y");
 			if (point.hbl_y > 0) //If 'Y' is +ve
-				strcpy(point_properties.hbl_axis_lcoation, "Positive Y");
+				strcpy(point_properties.hbl_axis_lcoation, "Positive hbl_Y");
 
 			point_properties.hbl_quadrant = 0; //A point Lying on Any of the co-ordinates Axes Is not a part of any quadrant....
 			printf("The point Lies on the %s Axis !!! \n", point_properties.hbl_axis_lcoation);
