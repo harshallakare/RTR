@@ -24,7 +24,7 @@ int main(void)
 
 	//Displaying Values iof thge data members of 'struct MyData'
 	printf("\n\n");
-	printf("Data Members of 'struct MyData' Are \n\n");
+	printf("Data Members of 'struct hbl_MyData' Are \n\n");
 	printf("i  = %d\n",hbl_data.hbl_i);
 	printf("f  = %f\n", hbl_data.hbl_f);
 	printf("d  = %lf\n", hbl_data.hbl_d);
@@ -36,7 +36,7 @@ int main(void)
 
 	//Displaying Size (In Bytes) of the data member of 'struct MyData'
 	printf("\n\n");
-	printf("SIZES (in bytes) OF DATA MEMBERS OF 'struct MyData' Are : \n\n");
+	printf("SIZES (in bytes) OF DATA MEMBERS OF 'struct hbl_MyData' Are : \n\n");
 	printf("Size of 'i' = %d bytes\n", hbl_i_size);
 	printf("Size of 'f' = %d bytes\n", hbl_f_size);
 	printf("Size of 'd' = %d bytes\n", hbl_d_size);
@@ -46,7 +46,7 @@ int main(void)
 
 	//Displaying Size (In Bytes) of the entire 'struct MyData'
 	printf("\n\n");
-	printf("Size of 'struct MyData' : %d bytes\n\n", struct_MyData_sizee);
+	printf("Size of 'struct hbl_MyData' : %d bytes\n\n", struct_MyData_sizee);
 
 	return(0);
 
