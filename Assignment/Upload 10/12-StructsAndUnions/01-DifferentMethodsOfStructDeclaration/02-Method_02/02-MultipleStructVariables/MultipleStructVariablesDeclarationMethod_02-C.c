@@ -35,11 +35,11 @@ int main(void)
 
 	//Displaying Values of the data memeber of 'struct MyPoint' (all varibales )
 	printf("\n\n");
-	printf("CO-ordinates (x,y) of the 'A' Are : (%d, %d) \n\n", hbl_point_A.hbl_x, hbl_point_A.hbl_y);
-	printf("CO-ordinates (x,y) of the 'B' Are : (%d, %d) \n\n", hbl_point_B.hbl_x, hbl_point_B.hbl_y);
-	printf("CO-ordinates (x,y) of the 'C' Are : (%d, %d) \n\n", hbl_point_C.hbl_x, hbl_point_C.hbl_y);
-	printf("CO-ordinates (x,y) of the 'D' Are : (%d, %d) \n\n", hbl_point_D.hbl_x, hbl_point_D.hbl_y);
-	printf("CO-ordinates (x,y) of the 'E' Are : (%d, %d) \n\n", hbl_point_E.hbl_x, hbl_point_E.hbl_y);
+	printf("CO-ordinates (hbl_x,hbl_y) of the 'hbl_A' Are : (%d, %d) \n\n", hbl_point_A.hbl_x, hbl_point_A.hbl_y);
+	printf("CO-ordinates (hbl_x,hbl_y) of the 'hbl_B' Are : (%d, %d) \n\n", hbl_point_B.hbl_x, hbl_point_B.hbl_y);
+	printf("CO-ordinates (hbl_x,hbl_y) of the 'hbl_C' Are : (%d, %d) \n\n", hbl_point_C.hbl_x, hbl_point_C.hbl_y);
+	printf("CO-ordinates (hbl_x,hbl_y) of the 'hbl_D' Are : (%d, %d) \n\n", hbl_point_D.hbl_x, hbl_point_D.hbl_y);
+	printf("CO-ordinates (hbl_x,hbl_y) of the 'hbl_E' Are : (%d, %d) \n\n", hbl_point_E.hbl_x, hbl_point_E.hbl_y);
 
 	return(0);
 }
